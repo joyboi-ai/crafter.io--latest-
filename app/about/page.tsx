@@ -78,7 +78,7 @@ function AboutPage() {
           <p className="text-orange-500 mt-2 text-lg font-semibold">Surya</p>
 
           <h2 className="text-2xl font-semibold text-gray-300 mt-4">Project Guide</h2>
-          <p className="text-orange-500 mt-2 text-lg font-semibold">Prof. Aarti Patkar & Prof Jermin shaikh</p>
+          <p className="text-orange-500 mt-2 text-lg font-semibold">Prof. Aarti Patkar & Prof. Jermin shaikh</p>
           <p className="text-gray-400 text-sm mt-1">
             Department of Information Technology, Valia College
           </p>
