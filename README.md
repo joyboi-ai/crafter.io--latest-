@@ -27,7 +27,7 @@ Crafter.io is an AI-powered, cloud-based document and diagramming tool designed 
 
 1. **Clone the repository**
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/joyboi-ai/crafter.io--latest-.git
    cd crafter.io
    ```
 
