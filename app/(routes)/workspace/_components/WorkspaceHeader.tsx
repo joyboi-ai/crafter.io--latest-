@@ -114,7 +114,7 @@ function WorkspaceHeader({ onSave, fileName, _id }: WorkspaceHeaderProps) {
             className="h-8 text-[16px] text-white font-bold px-2 flex items-center cursor-pointer"
             onDoubleClick={() => setIsEditing(true)}
           >
-            <strong>{fileName || "Untitled File"}</strong>
+            <strong>{fileName || "test1"}</strong>
           </h1>
         ) : (
           <input

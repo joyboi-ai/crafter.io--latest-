@@ -22,9 +22,8 @@ function AI_Button({ fileId }: { fileId: string }) {
     HarmCategory,
     HarmBlockThreshold,
   } = require("@google/generative-ai");
-
-  const apiKey = "AIzaSyDm7a1Vw4-Gp8h2GMsjHlFg438PDc2x574";
-  const genAI = new GoogleGenerativeAI(apiKey);
+const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY;
+const genAI = new GoogleGenerativeAI(apiKey);
 
   const model = genAI.getGenerativeModel({
     model: "gemini-2.0-flash-exp",

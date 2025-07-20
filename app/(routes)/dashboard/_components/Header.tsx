@@ -48,7 +48,7 @@ function Header() {
                 {/* User Name with Tooltip */}
                 <div className="relative group">
                     <span className="text-white mr-2 cursor-pointer">
-                        {user?.name || 'Madara Uchiha'}
+                        {user?.name || 'Surya'}
                     </span>
                     <div className="absolute left-0 bg-gray-700 text-white text-sm rounded p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         {user?.email}
