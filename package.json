@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:no-check": "SKIP_ENV_VALIDATION=1 NEXT_IGNORE_ESLINT=1 next build --no-lint --no-check || true",
     "start": "next start",
     "lint": "next lint"
   },

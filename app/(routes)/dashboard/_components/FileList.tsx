@@ -3,7 +3,7 @@ import { FileListContext } from "@/app/_context/FilesListContext";
 import { useKindeBrowserClient } from "@kinde-oss/kinde-auth-nextjs";
 import { Archive, File, MoreHorizontal } from "lucide-react";
 import moment from "moment";
-
+import { Id } from '@/convex/_generated/dataModel';
 import Image from "next/image";
 import {
   DropdownMenu,
@@ -22,7 +22,7 @@ export interface FILE {
   fileName: string;
   teamId: string;
   whiteboard: string;
-  _id: string;
+  _id: Id<"files">;
   _creationTime: number;
   _lastEditedTime: number;
   _proirity: string;

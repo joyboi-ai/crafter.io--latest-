@@ -32,13 +32,13 @@ function Canvas({ onSaveTrigger, fileId, fileData, imageUploadPath }: { onSaveTr
                         setWhiteBoardData(excalidrawElements)
                     }
                 >
-                    <MainMenu position="top-left">
+                    <MainMenu >
                         <MainMenu.DefaultItems.ClearCanvas />
                         <MainMenu.DefaultItems.SaveAsImage />z
                         <MainMenu.DefaultItems.ChangeCanvasBackground />
                     </MainMenu>
 
-                    <WelcomeScreen position="center">
+                    <WelcomeScreen >
                         <WelcomeScreen.Hints.MenuHint />
                         <WelcomeScreen.Hints.ToolbarHint />
                         <div className="absolute top-0 right-0 p-4">
