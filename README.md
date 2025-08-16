@@ -22,6 +22,12 @@ Crafter.io is an AI-powered, cloud-based document and diagramming tool designed 
 - Editor.js (Document Editor)
 - Excalidraw (Diagramming/Whiteboard)
 - Sonner (Notifications)
+  
+## 🎥 Project Showcase  
+
+Check out the demo video of **Crafter.io** in action:  
+
+[![Crafter.io Project Showcase](https://img.youtube.com/vi/COI_8iNSHHM/0.jpg)](https://youtu.be/COI_8iNSHHM?si=z84LJ8EbMqZETdg-)
 
 ## Getting Started
 
